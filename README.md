@@ -1,16 +1,17 @@
 # Songshare
 
-Swift App that allows you send notfications to nearby users taht deeplink to Spotify
+Swift App that allows you send notifications to nearby users that deeplink to songs
 
-## How it works
-
-<img src="./media/IMG_3496.png" style="max-width:45%; width:200px;" />
-<img src="./media/IMG_3498.png" style="max-width:45%; width:200px;" />
+|        Share a URI        |      Receive a push       |
+| :-----------------------: | :-----------------------: |
+| ![](./media/IMG_3498.png) | ![](./media/IMG_3496.png) |
 
 <video autoPlay loop muted playsInline style="width:200px;" >
 <source src="./media/ScreenRecording_11-16-2025 18-29-42_1.mp4" /></video>
 
-The App takes a URI which is automatically copied in if shared from within the Spotify app.
+## How it works
+
+The App takes a URI (which is automatically copied in if shared from within the Spotify app).
 
 It then uses `Multipeer connectivity` to detect nearby devices who also have the app open and send push notifications to all these devices on button press.
 
