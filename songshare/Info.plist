@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>songshare</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>SongShare needs local network access to discover nearby devices and share songs with them.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_spotify-share._tcp</string>
+	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>spotify</string>
+		<string>songshare</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.songshare.share</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>songshare</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
